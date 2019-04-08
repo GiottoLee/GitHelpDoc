@@ -1,6 +1,9 @@
 # Git使用教程
 
-## **配置Git**
+@[TOC](目录)
+
+
+## 配置Git
 
 - ### git --version &emsp;查看Git版本
 ```
@@ -35,7 +38,7 @@ PS G:\DOC> git config --list
 
 <br/>
 
-## **创建仓库**
+## 创建仓库
 
 - ### git init &emsp; 初始化仓库
 ```
@@ -47,7 +50,7 @@ Reinitialized existing Git repository in G:/DOC/GitDoc/.git/
 
 <br/>
 
-## **基本用法**
+## 基本用法
 
 - ### git status &emsp; 查看状态
 ```
@@ -145,7 +148,7 @@ PS G:\DOC\GitDoc> git checkout -
 
 <br/>
 
-## **三种状态**
+## 三种状态
 
 1. Modified &emsp; 修改状态
 2. Staged &emsp; 暂存状态
@@ -153,7 +156,7 @@ PS G:\DOC\GitDoc> git checkout -
 
 <br/>
 
-## **标签Tag**
+## 标签Tag
 
 - ### git tag &emsp; 查看标签
 ~~~
@@ -354,7 +357,7 @@ PS G:\DOC\GitDoc>git checkout NotFinished
 
 <br/>
 
-## **分支Branch**
+## 分支Branch
 
 - ### git branch [ *分支名* ] &emsp; 创建分支
 ~~~
@@ -400,7 +403,7 @@ PS G:\DOC\test> git log --all --graph
 
 <br/>
 
-## **合并分支**
+## 合并分支
 
 - ### git merge [ *分支名* ] &emsp; 合并分支到当前分支
 ~~~
@@ -462,7 +465,7 @@ PS G:\DOC\GitDoc> git pull
 
 <br/>
 
-## **多人远程合作**
+## 多人远程合作
 
 - ### git clone [ *仓库地址* ] [ *FileName* ] &emsp; 克隆远程仓库到指定文件夹
 ~~~
