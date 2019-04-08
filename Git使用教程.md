@@ -10,9 +10,9 @@ git version 2.21.0.windows.1
 
 <br/>
 
-- ### git comnfig --global user.name "GiottoLee" &emsp;配置全局用户名
+- ### git comnfig --global user.name "GiottoLee" &emsp; 配置全局用户名
 
-- ### git comnfig --global user.email "xxx@outlook.com" &emsp;配置全局用户名
+- ### git comnfig --global user.email "xxx@outlook.com" &emsp; 配置全局用户名
 
 - ### git comfig --list &emsp; 查看当前所有项目
 
@@ -43,7 +43,7 @@ PS G:\DOC\GitDoc> git init
 Reinitialized existing Git repository in G:/DOC/GitDoc/.git/
 ```
 
-- ### git clone [ *连接* ] &emsp； 克隆仓库
+- ### git clone [ *连接* ] &emsp; 克隆仓库
 
 <br/>
 
@@ -70,7 +70,7 @@ PS G:\DOC\GitDoc> git add .
 PS G:\DOC\GitDoc> git add HowToUseGit.md
 ~~~
 
-- ### git commit -m "*备注*" &emsp; 提交版本
+- ### git commit -m " *备注* " &emsp; 提交版本
 ```
 PS G:\DOC\GitDoc> git commit -m "Contribute how to use Git tools."
 [master (root-commit) 3ccc1ff] Contribute how to use Git tools.
@@ -166,7 +166,7 @@ NotFinished
 PS G:\DOC\GitDoc> git tag -a NotFinished -m "New content added"
 ~~~
 
-- ### git tag -a [*标签名*] -m "*备注*" [ *版本号* ] &emsp; 添加标签
+- ### git tag -a [ *标签名* ] -m "*备注*" [ *版本号* ] &emsp; 添加标签
 ~~~
 PS G:\DOC\GitDoc> git tag -a NotFinished -m "New content added" f2165
 ~~~
@@ -422,7 +422,7 @@ fixed
 
 ## 远程仓库
 
-- ### git remote add [ *远程名称* ] [ *远程地址* i] &emsp; 设置远程仓库
+- ### git remote add [ *远程名称* ] [ *远程地址* ] &emsp; 设置远程仓库
 ~~~
 PS G:\DOC\GitDoc> git remote add GitHelpDoc git@github.com:G/GitHelpDoc.git
 ~~~
