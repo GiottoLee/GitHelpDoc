@@ -1,6 +1,28 @@
+---
+title: "Git Help Doc"
+---
 # Git使用教程
 
-@[TOC](目录)
+<br/>
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
+<!-- code_chunk_output -->
+
+* [Git使用教程](#git使用教程)
+	* [配置Git](#配置git)
+	* [创建仓库](#创建仓库)
+	* [基本用法](#基本用法)
+	* [三种状态](#三种状态)
+	* [标签Tag](#标签tag)
+	* [分支Branch](#分支branch)
+	* [合并分支](#合并分支)
+	* [远程仓库](#远程仓库)
+	* [多人远程合作](#多人远程合作)
+
+<!-- /code_chunk_output -->
+
+<br/>
 
 
 ## 配置Git
@@ -471,3 +493,7 @@ PS G:\DOC\GitDoc> git pull
 ~~~
 PS G:\DOC\GitDoc> git clone git@github.com:G/GitHelpDoc.git newFile
 ~~~
+
+<br/>
+
+[Github文档下载](https://github.com/GiottoLee/GitHelpDoc)
