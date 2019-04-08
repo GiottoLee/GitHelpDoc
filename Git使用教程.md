@@ -1,6 +1,4 @@
----
-title: "Git Help Doc"
----
+
 # Git使用教程
 
 <br/>
